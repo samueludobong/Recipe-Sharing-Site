@@ -64,6 +64,13 @@ nav ul li:hover{
    border-radius: 4px;
 }
 
+.no-style-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
 .last-container{
    width: 90%;
    background: #f5f5f5;
@@ -138,6 +145,19 @@ nav ul li:hover{
    margin-left: 70px;
 }
 
+.hero-contact{
+  width: 90%;
+  height: 250px;
+  background: url(images/toBlpDA0P46bUWA7erruXqhE.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  border-radius: 30px;
+  align-items: center;
+  margin-left: 70px;
+}
+
 .hero2{
    width: 90%;
    height: 570px;
@@ -160,6 +180,162 @@ nav ul li:hover{
    padding-left: 500px;
 }
 
+.contact-section2{
+  margin-top: 30px;
+}
+
+.contact-section {
+  display: flex;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.message-section {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  width: 90%;
+  margin: 40px auto;
+  align-items: flex-start;
+}
+
+.message-left {
+  flex: 1;
+  padding: 20px;
+}
+
+.message-left h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #222;
+}
+
+.message-left .highlight {
+  color: #f39c12;
+}
+
+.message-right {
+  flex: 2;
+  padding: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea {
+  background: #f6f6f6;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  resize: none;
+}
+
+.submit-btn {
+  background: #222;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 14px;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #333;
+}
+
+.contact-image {
+  flex: 1;
+  background: url('images/vK89z1Uuqcjgg8d138tkwC9L0w.png') center/cover no-repeat;
+  position: relative;
+  min-height: 300px;
+}
+
+.contact-title {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #e67e22, #d35400);
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.contact-details {
+  flex: 2;
+  padding: 24px;
+}
+
+.contact-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  color: #555;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.contact-box {
+  flex: 1;
+  background: #f6f6f6;
+  padding: 16px;
+  border-radius: 12px;
+  min-width: 200px;
+}
+
+.contact-box.full-width {
+  flex: 100%;
+}
+
+.contact-box small {
+  display: block;
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.contact-value {
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: #222;
+}
+
+
 .hero-section2 p{
    font-size: 20px;
    color: #707070;
@@ -173,6 +349,14 @@ nav ul li:hover{
    color: #222222;
    padding-top: 50px;
    padding-left: 50px;
+}
+
+.hero-section-contact h2{
+  font-size: 52px;
+  font-weight: 600;
+  color: #222222;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 
 .section_name{
@@ -192,6 +376,16 @@ nav ul li:hover{
 
 .hero-section span{
    color: #FFA319;
+}
+
+.hero-section-contact span{
+  color: #FFA319;
+}
+
+.hero-section p{
+   font-size: 20px;
+   color: #707070;
+   padding-left: 50px;
 }
 
 .hero-section p{
