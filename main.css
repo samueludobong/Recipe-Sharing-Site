@@ -470,6 +470,130 @@ nav ul li:hover{
    margin-left: 70px;
 }
 
+.hero-left img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+.watch-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.hero-right h1 {
+  font-size: 48px;
+  margin-left: 70px;
+}
+
+.hero-right .p-class {
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 20px;
+  color: #707070;
+}
+
+.hero-right {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.highlight {
+  color: orange;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+  margin-left: 70px;
+}
+
+.testimonial {
+  background: orange;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.stats div span {
+  display: block;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.values {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff;
+}
+
+.value-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-about {
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  font-weight: bold;
+}
+
+.join-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.team {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
+
+.chef-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.chef img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.chef p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
 .grid {
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
