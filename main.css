@@ -145,6 +145,54 @@ nav ul li:hover{
    margin-left: 70px;
 }
 
+.hero-beef{
+  width: 90%;
+  height: 380px;
+  background: url(images/0wzxmpuhaU0N5vdLRzgXyGuekys.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  color: #fff;
+  border-radius: 30px;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.hero-beef-summer{
+  width: 90%;
+  height: 380px;
+  background: url(images/Halloumi_Burger_with_Chilli_and_Mint.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  color: #fff;
+  border-radius: 30px;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.back-me{
+  width: 90%;
+   height: 40px;
+   background: #222222;
+   color: #fff;
+   border-radius: 30px;
+   align-items: center;
+   margin-left: 70px;
+   padding-left: 5px;
+   padding-top: 5px;
+   margin-bottom: 20px;
+}
+
+.back-circle{
+  width: 30px;
+   height: 30px;
+   background-color: white;
+   border-radius: 50%;
+   border: 0;
+   padding-top: 3px;
+   margin: 0 auto 10px;
+}
 .hero-contact{
   width: 90%;
   height: 250px;
@@ -351,6 +399,41 @@ nav ul li:hover{
    padding-left: 50px;
 }
 
+.hero-section-beef h2{
+  font-size: 80px;
+  font-weight: 800;
+  color: #222222;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.hero-section-beef-summer h2{
+  font-size: 80px;
+  font-weight: 800;
+  -webkit-text-stroke: 1.5px black;
+  color: white;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.hero-section-beef-summer span{
+  color: #e67e22;
+}
+
+.hero-section-beef p{
+  padding-top: 120px;
+  font-size: 25px;
+   color: #707070;
+  padding-left: 20px;
+}
+
+.hero-section-beef-summer p{
+  padding-top: 120px;
+  font-size: 25px;
+   color: #707070;
+  padding-left: 20px;
+}
+
 .hero-section-contact h2{
   font-size: 52px;
   font-weight: 600;
@@ -392,6 +475,74 @@ nav ul li:hover{
    font-size: 20px;
    color: #707070;
    padding-left: 50px;
+}
+
+.section-p{
+  font-size: 20px;
+   color: #707070;
+   padding-left: 80px;
+   width: 90%;
+}
+
+.ingredients-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 90%;
+  margin: 40px auto;
+}
+
+.instructions {
+  width: 90%;
+  background-color: white;
+  border-radius: 8px;
+  margin: 40px auto;
+
+}
+
+.step {
+  margin-bottom: 15px;
+  background-color: #f5f5f5;
+  height: 100px;
+  display: flex;
+  gap: 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.step h2 {
+  font-size: 44px;
+  color: #f39c12;
+  padding-top: 3px;
+
+}
+
+.step p {
+  padding-top: 15px;
+  font-size: 20px;
+  color: #707070;
+}
+
+
+.ingredients-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredients-list li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
 }
 
 .explore-button{
@@ -448,10 +599,65 @@ nav ul li:hover{
    /* margin-left: 50px; */
 }
 
+.explore-button-print{
+  width: 200px;
+   height: 45px;
+   border: 0;
+   font-weight: 400;
+   font-size: 16px;
+   border-radius: 10px;
+   background: #f39c12;
+   color: #f7f7f7;
+   margin-top: 30px;
+   text-align: left;
+   padding-left: 20px;
+   margin-left: 70px;
+}
+
+.explore-button-print:hover{
+  background: #111;
+   color: #f7f7f7;
+}
+
 .explore-button2:hover, .explore-button3:hover, .explore-button4:hover{
       background-color: orange;
       color: #f5f5f5;
       
+}
+
+.layout-send{
+  display: flex;
+  gap: 20px;
+}
+
+.layout-send input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #f39c12;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.signup-btn-send {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup-btn-send:hover {
+  background-color: darkorange;
+}
+
+.footer-newsletter-send {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .intro{
@@ -474,6 +680,51 @@ nav ul li:hover{
   width: 300px;
   border-radius: 12px;
 }
+
+.recipe-info-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 70px 0;
+  gap: 600px;
+}
+
+.recipe-info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.info-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #fff5e5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.info-label {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.info-value {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  color: #111;
+}
+
 
 .watch-btn {
   margin-top: 10px;
